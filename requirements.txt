@@ -1,0 +1,7 @@
+python-nmap
+requests
+scapy
+beautifulsoup4
+rich
+tabulate
+pytest
