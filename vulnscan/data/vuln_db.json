@@ -1,0 +1,13 @@
+{
+  "OpenSSH": [
+    {"cve": "CVE-2016-0777", "severity": "medium", "notes": "OpenSSH client info leak"},
+    {"cve": "CVE-2016-6210", "severity": "low", "notes": "OpenSSH timing side-channel"}
+  ],
+  "Apache": [
+    {"cve": "CVE-2017-9798", "severity": "high", "notes": "Apache mod_status vulnerability"},
+    {"cve": "CVE-2019-0211", "severity": "high", "notes": "Privilege escalation in Apache"}
+  ],
+  "MySQL": [
+    {"cve": "CVE-2016-6662", "severity": "medium", "notes": "MySQL privilege escalation"}
+  ]
+}

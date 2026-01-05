@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>VulnScan Web</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>VulnScan — Local Web Scanner</h1>
+    <form method="POST">
+      <label for="target">Target IP / Hostname</label>
+      <input type="text" name="target" id="target" placeholder="e.g. 192.168.1.100" required>
+      
+      <label for="ports">Ports</label>
+      <input type="text" name="ports" id="ports" placeholder="1-1024" value="1-1024">
+
+      <label class="checkbox-container">
+        <input type="checkbox" name="use_nmap" id="use_nmap">
+        <span class="custom-checkbox"></span>
+        <span class="checkbox-label">Enable Nmap Enrichment</span>
+      </label>
+      
+      <button type="submit">Start Scan</button>
+    </form>
+  </div>
+</body>
+</html>
